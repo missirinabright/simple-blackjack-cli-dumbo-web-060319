@@ -56,8 +56,7 @@ end
     card_total
   elsif answer = 'h'
     card_total += deal_card
-
-return card_total
+  end
 end
 
 def invalid_command
