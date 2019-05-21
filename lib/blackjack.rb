@@ -56,9 +56,7 @@ end
     card_total
   elsif answer = 'h'
     card_total += deal_card
-  else 
-    invalid_command
-    prompt_user
+
 return card_total
 end
 
