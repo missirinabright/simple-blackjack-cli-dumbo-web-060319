@@ -54,7 +54,7 @@ end
 
   if input == 'h'
     card_total += deal_card
-  elsif answer == 'h'
+  elsif answer == 's'
     card_total
   end
 end
