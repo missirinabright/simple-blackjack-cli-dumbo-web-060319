@@ -50,7 +50,8 @@ def hit?(card_total)
   until input == 's' || input == 'h'
   prompt_user
   input = get_user_input
-  
+end
+
   if input = 's'
     card_total
   elsif answer = 'h'
